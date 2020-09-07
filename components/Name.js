@@ -47,6 +47,7 @@ export default class Name extends Component {
         <Text style={this.state.showName}>Hello, {this.state.username}</Text>
         <Text style={this.state.showName}>Let's do something fun!</Text>
         <Text>test</Text>
+        <Text>camera</Text>
         <TouchableHighlight
           style={this.state.showName}
           onPress={() => this.props.navigation.navigate("Activity")}
