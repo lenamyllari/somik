@@ -9,6 +9,7 @@ import Activity from "./components/Activity";
 const Stack = createStackNavigator();
 
 export default function App() {
+  //testeting
   return (
     <NavigationContainer >
       <Stack.Navigator initialRouteName="Name">
